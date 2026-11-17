@@ -1,6 +1,6 @@
 // ATS-style resume parser, ported from OpenResume (https://github.com/xitanggg/open-resume,
 // src/app/lib/parse-resume-from-pdf) — Copyright (c) Xitang Zhao, AGPL-3.0, see LICENSE.
-// Changes: plain browser JS (pdf.js 3 global `pdfjsLib`), French resumes (section titles, months,
+// Changes: plain browser JS taking a PDF.js document (tested with PDF.js 6), French resumes (section titles, months,
 // phone numbers, postcodes, job titles, schools, degrees), accent-insensitive keyword matching.
 // Same 4 steps: PDF text items -> lines -> sections -> feature-scoring extraction.
 (() => {
